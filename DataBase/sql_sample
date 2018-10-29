@@ -1,0 +1,3 @@
+select * from users, Courses
+where users.course_id = Courses.Id
+and Courses.Name= 'java'
